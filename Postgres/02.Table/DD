@@ -1,0 +1,11 @@
+ 
+
+CREATE TABLE public.company (
+	id int4 NOT NULL,
+	first_name text NOT NULL,
+	second_name text NOT NULL,
+	age int4 NOT NULL,
+	address bpchar(50) NULL,
+	"exp" float4 NULL,
+	CONSTRAINT company_pkey PRIMARY KEY (id)
+);
