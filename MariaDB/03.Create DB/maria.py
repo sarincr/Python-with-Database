@@ -8,7 +8,7 @@ X = mariadb.connect(
     )
 
 Y = X.cursor()
-Y.execute(''' CREATE DATABASE Products;  ;''')
+Y.execute(''' CREATE DATABASE Products;  ''')
 
  
 Y.execute("SHOW DATABASES")

@@ -9,7 +9,7 @@ X = mariadb.connect(
 
 Y = X.cursor()
 
-Y.execute("SHOW DATABASES")
+Y.execute("SHOW DATABASES;")
 
 for x in Y:
     print(x) 

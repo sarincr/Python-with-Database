@@ -1,0 +1,2 @@
+SELECT Employee_id, Employee_first_name, Employee_last_name, Employee_Address, Employee_emailID, Employee_department_ID, Employee_Joining_date
+FROM ABC.tblEmployee;

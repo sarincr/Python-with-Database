@@ -1,0 +1,12 @@
+-- ABC.tblEmployee definition
+
+CREATE TABLE `tblEmployee` (
+  `Employee_id` int NOT NULL AUTO_INCREMENT,
+  `Employee_first_name` varchar(500) NOT NULL,
+  `Employee_last_name` varchar(500) NOT NULL,
+  `Employee_Address` varchar(1000) DEFAULT NULL,
+  `Employee_emailID` varchar(500) DEFAULT NULL,
+  `Employee_department_ID` int DEFAULT '9',
+  `Employee_Joining_date` date DEFAULT NULL,
+  PRIMARY KEY (`Employee_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
